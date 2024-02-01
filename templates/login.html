@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <img src="/" alt="투어룩 로고" />
+
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+      <div>
+        <label for="user_id">ID: </label>
+        <input type="text" name="user_id" id="user_id" />
+      </div>
+      <div>
+        <label for="user_pwd">Password</label>
+        <input type="password" name="user_pwd" id="user_pwd" />
+      </div>
+      <button type="submit">로그인</button>
+    </form>
+    <p>회원가입을 하지 않으셨다면 ?</p>
+    <a href="#">회원가입</a>
+  </body>
+</html>

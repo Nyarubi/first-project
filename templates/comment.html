@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. 댓글 등록 -->
+    <!-- 작성해야하는 공간 -->
+    <!-- 등록하는 버튼 -->
+    <form action="/comment" method="POST">
+        <div>
+            <input type ="hidden" name="post_pk" value="1">
+          <label for="user_id"> 댓글 입력 </label>
+          <input type="textarea" name="comment_content" id="comment_content" />
+        </div>
+        <button type="submit">저장</button>
+      </form>
+</body>
+</html>
